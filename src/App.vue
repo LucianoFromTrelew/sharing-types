@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h1>Message</h1>
     {{ data }}
   </div>
 </template>

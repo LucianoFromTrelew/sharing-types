@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "nodemon",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build:app": "rm -rf dist && vue-cli-service build",
+    "build:functions": "npm --prefix functions run build",
+    "build": "npm run build:app && npm run build:functions",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
