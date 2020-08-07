@@ -1,5 +1,7 @@
 # vue-express-typescript
 
+**This repo was created as a demo in [this Collected Notes note](https://collectednotes.com/lucianoserruyaaloisi/typescript-sharing-type-definitions-seamlessly-between-server-and-client)**
+
 ## Project setup
 ```
 npm install
